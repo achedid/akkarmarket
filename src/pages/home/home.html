@@ -1,18 +1,63 @@
 <ion-header>
   <ion-navbar>
-    <button ion-button menuToggle>
+    <button ion-button menuToggle class="redBgMenu">
       <ion-icon name="menu"></ion-icon>
     </button>
-    <ion-title>Home</ion-title>
+    <ion-title><img alt="logo" height="40" src="assets/imgs/logo.png" > </ion-title>
   </ion-navbar>
 </ion-header>
 
-<ion-content padding>
-  <h3>Ionic Menu Starter</h3>
-
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
-
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+<ion-content padding class="homeContent">
+  <ion-searchbar></ion-searchbar>
+  <ion-grid>
+    <ion-row class="categoryRow">
+      <ion-col text-center>
+        <img alt="restaurant" height="40" src="assets/imgs/cat/restaurant@3x.png" ><br>
+        Restaurants
+      </ion-col>
+      <ion-col text-center>
+        <img alt="beauty" height="40" src="assets/imgs/cat/beauty@3x.png" ><br>
+        Beauty
+      </ion-col>
+      <ion-col text-center>
+        <img alt="services" height="40" src="assets/imgs/cat/services@3x.png" ><br>
+        Services
+      </ion-col>
+      <ion-col text-center>
+        <img alt="bankatm" height="40" src="assets/imgs/cat/bankatm@3x.png" ><br>
+        Bank ATM
+      </ion-col>
+    </ion-row>
+    <ion-row class="categoryRow">
+      <ion-col text-center>
+        <img alt="shopping" height="40" src="assets/imgs/cat/shopping-bag@3x.png" ><br>
+        Shops
+      </ion-col>
+      <ion-col text-center>
+        <img alt="coffee-shop" height="40" src="assets/imgs/cat/coffee-cup@3x.png" ><br>
+        Coffe Shop
+      </ion-col>
+      <ion-col text-center>
+        <img alt="pharmacy" height="40" src="assets/imgs/cat/pill@3x.png" ><br>
+        Pharmacy
+      </ion-col>
+      <ion-col text-center>
+        More
+      </ion-col>
+    </ion-row>
+  </ion-grid>
+  <h5>Recent Places</h5>
+  <ion-grid>
+    <ion-row>
+      <ion-card>
+        <img src="assets/imgs/hallab.jpg"/>
+        <ion-card-content>
+          <ion-card-title>Abdel Rahman Hallab</ion-card-title>
+          <p>
+          This place is very familiar friendly, the vendors are very accommodating and very spatious
+          </p>
+        </ion-card-content>
+      </ion-card>
+    </ion-row>
+  </ion-grid>
 </ion-content>

@@ -1,6 +1,6 @@
 {
   "name": "akkar.market",
-  "app_id": "",
+  "app_id": "59667124",
   "type": "ionic-angular",
   "integrations": {
     "cordova": {}
